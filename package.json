@@ -1,0 +1,28 @@
+{
+  "name": "trello-report-generator",
+  "version": "0.0.1",
+  "description": "A sample Node.js get trello cards and put in to excel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node get_task.js"
+  },
+  "dependencies": {
+    "node-trello": "1.2.1",
+    "xlsx-populate": "1.8.2",
+    "underscore": "1.8.3"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-sample"
+  },
+  "keywords": [
+    "node",
+    "trello",
+    "excel"
+  ],
+  "author": "Jacob Huang",
+  "license": "MIT"
+}
